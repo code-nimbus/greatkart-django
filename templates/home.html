@@ -8,7 +8,7 @@
 
 
 <!-- ========================= SECTION MAIN ========================= -->
-<section class="section-intro padding-y-sm">
+<section class="section-intro padding-y-sm" style="background-color: gray;">
 <div class="container">
 
 <div class="intro-banner-wrap">
@@ -20,16 +20,16 @@
 <!-- ========================= SECTION MAIN END// ========================= -->
 
 <!-- ========================= SECTION  ========================= -->
-<section class="section-name padding-y-sm">
+<section class="section-name padding-y-sm" style="background-color: gray;">
 <div class="container">
 
-<header class="section-heading">
+<header class="section-heading" style="background-color: gray;">
 	<a href="{% url 'store' %}" class="btn btn-outline-primary float-right">See all</a>
 	<h3 class="section-title">Popular products</h3>
 </header><!-- sect-heading -->
 
 
-<div class="row">
+<div class="row" style="background-color: gray !important;">
 	{% for product in products %}
 	<div class="col-md-3">
 		<div class="card card-product-grid">
