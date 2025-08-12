@@ -10,6 +10,7 @@ from .models import ReviewRating
 from .forms import ReviewForms
 from django.contrib import messages
 from orders.models import OrderProduct
+from .models import ProductGallery
 
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
